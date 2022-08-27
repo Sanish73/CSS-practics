@@ -1,12 +1,10 @@
-*{
-    /* background-color: red; */
-}
 
+/* ----------this is for vertical menu--------------- */
 body{
     margin: 0;
 }
 
-.icon-bar{
+/* .icon-bar{
     width: 90px;
     background-color: #555;
     border-radius: 10px;
@@ -29,4 +27,34 @@ body{
 .active{
     background-color: #04AA6D;
     border-radius: 10px;
+} */
+
+
+/* ----this is for horizontal menu------------- */
+
+.icon-bar{
+    width: 50%;
+    background-color: #555;
+    overflow: auto;
+    border-radius: 10px;
+ 
+}
+
+.icon-bar a{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+ transition: all 0.3s ease;
+ color: white;
+ font-size: 36px;
+ border-radius: 10px;
+}
+
+.icon-bar a:hover{
+    background-color: #000;
+}
+
+.active{
+    background-color: #04AA6D;
 }
