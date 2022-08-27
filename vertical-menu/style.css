@@ -9,6 +9,7 @@ body{
 .icon-bar{
     width: 90px;
     background-color: #555;
+    border-radius: 10px;
 }
 
 .icon-bar a{
@@ -22,8 +23,10 @@ body{
 
 .icon-bar a:hover{
     background-color: #000;
+    border-radius: 10px;
 }
 
 .active{
     background-color: #04AA6D;
+    border-radius: 10px;
 }
