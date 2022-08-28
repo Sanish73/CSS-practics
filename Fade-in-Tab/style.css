@@ -1,0 +1,54 @@
+*{
+    /* background-color: rgba(0, 0, 0, 0.493); */
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.tab{
+    overflow: hidden;
+    border: 1px soid #ccc;
+    background-color: #f1f1f1;
+
+}
+
+.tab button{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    padding: 14px 17px;
+}
+.tab button:hover{
+    background-color: rgb(103, 235, 241);
+}
+
+.tab button.active{
+    background-color: red;
+}
+
+.tabconent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    
+}
+
+.toptight{
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+
+
+}
+
+.toptight:hover{
+color: red;
+}
